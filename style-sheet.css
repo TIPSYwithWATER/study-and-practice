@@ -1,0 +1,35 @@
+/* Sondra's Coding Study & Practice: Main Style Sheet */
+
+/* Available classes= body, page-header, nav, heading, paragraph, sub-heading*/
+
+/* Style goals: 
+	* 5 pages total: "Home," "Experience" (education and work), "Projects," "Goals," "Contact Me"
+	* Create/specify unique page background images/patterns and use colored boxes to set off text
+	* Uniform header for all pages (banner, horizontal navigation with buttons for each page, profile picture &/or logo)
+	* Uniform text within classes across all pages
+	* Link businesses, colleges/training programs, platforms, etc. on Experience page + link LinkedIn article for teaching
+	* Links to social media profiles (including Twitter?) and scoffin e-mail address in Contact Me
+*/
+
+.body {background-color:#e68c4d; font-family="sans-serif";
+	
+}
+
+.page-header {background-color:hotpink; color=pink;
+	
+}
+
+.nav {color:blue;
+	
+}
+
+.heading {color:yellow;
+}
+
+.paragraph {background-color:rgba(255,165,0,.75); color=black;
+	
+}
+
+.sub-heading {
+	
+}
