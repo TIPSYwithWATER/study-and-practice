@@ -1,34 +1,40 @@
 /* Sondra's Coding Study & Practice: Main Style Sheet */
-
 /* Available classes= body, page-header, nav, heading, paragraph, sub-heading*/
-
 /* Style goals: 
 	* 4 pages total in website (main, page 2, page 3, page 4)
 	* Create a header with an un-warped background image + off-set (looks nice, readable) font + logo/image on left side
 	* Create/specify unique page background images/patterns and use colored boxes to set off text
 	* Download/create new fonts and use them in code, building in back-ups for possible incompatibility
-	* Integrate with functional JavaScript for improved UX/UI
-*/
+	* Integrate with functional JavaScript for improved UX/UI */
 
-.body {background-color:#e68c4d; font-family="sans-serif";
-	
+.body {background-color:#e68c4d; font-family="courier new";
 }
 
-.header {background-image:"orange-lily.jpg"; color=white;
-	
+/* ------------------------------- STYLES FOR THE SITE <HEADER> ----------------------------------------------------------- */
+
+.header-div {background-image:"orange-lily.jpg";
+}
+
+.header-h1 {color=purple; font-family="sans-serif";
 }
 
 .nav {color:pink;
+}
+
+/* ------------------------------- STYLES FOR THE <SECTION> ON MAIN PAGE --------------------------------------------------- */
+
+.section-h1 {color:yellow;
+}
+.section-p {background-color:#FFA500; color=green;
+}
+
+/* --------------------------------- STYLES FOR THE <ASIDE> ON MAIN PAGE --------------------------------------------------- */
+.aside-div {height:50px; width:40px; color=blue; background-color:white; float:right;
 	
 }
 
-.heading {color:yellow;
+.aside-h1 {color:orange;
 }
 
-.paragraph {background-color:rgba(255,165,0,.75); color=green;
-	
-}
-
-.div {height:50px; width:40px; color=blue; background-color:white; float:right;
-	
+.aside-p {color:purple;
 }
